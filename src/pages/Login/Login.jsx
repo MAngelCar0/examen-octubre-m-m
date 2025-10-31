@@ -1,4 +1,5 @@
 import './Login.css'
+import { Link } from 'react-router-dom'
 export function Login() {
   return (
 <div className="bg-[#0B101D] flex flex-col items-center justify-center h-screen dark">
@@ -13,7 +14,7 @@ export function Login() {
       <input placeholder="Contraseña" className="bg-[#0B101D] text-gray-200 border border-transparent rounded-md p-2 mb-4 focus:bg-gray-900 focus:outline-none focus:border-blue-900 transition ease-in-out duration-150" type="password"/>
       <div className="flex items-center justify-between flex-wrap">
       </div>
-      <button className="bg-gradient-to-r from-indigo-500 to-blue-800 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit">Iniciar Sesión</button>
+      <button className="bg-gradient-to-r from-indigo-500 to-blue-800 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit" ><Link to="/dashboard">Iniciar Sesión</Link></button> 
     </form>
   </div>
   <p className="text-sm text-gray-500 mt-4">¿No tienes una cuenta? <a className="text-blue-500 hover:underline" href="/registro">Regístrate</a></p>

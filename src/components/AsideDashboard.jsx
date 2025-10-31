@@ -1,4 +1,5 @@
 import '../components/AsideDashboard.css'
+import { Link } from 'react-router-dom'
 export function AsideDashboard() {
     return (
         <aside className="w-64 bg-gray-800 flex flex-col justify-between p-6">
@@ -22,7 +23,7 @@ export function AsideDashboard() {
           </nav>
         </div>
         <div>
-          <button className="block px-4 py-2 rounded-lg hover:bg-gray-700 hover:bg-indigo-600">Cerrar Sesión</button>
+          <button className="block px-4 py-2 rounded-lg hover:bg-gray-700 hover:bg-indigo-600" ><Link to="/login">Cerrar Sesión</Link></button>
         </div>
       </aside>
     )
