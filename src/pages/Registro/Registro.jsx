@@ -1,7 +1,7 @@
 import './Registro.css'
 export function Registro() {
     return (
-        <div className="reg-comtainer">
+        <div className="bg-white reg-comtainer">
             <section className="reg-section">
                 <h1 className="reg-title">Crea tu Cuenta</h1>
                 <p className="reg-subtitle">Regístrate para empezar a usar la aplicacion </p>

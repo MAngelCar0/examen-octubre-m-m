@@ -1,7 +1,7 @@
 import './Login.css'
 export function Login() {
   return (
-<div className="flex flex-col items-center justify-center h-screen dark">
+<div className="bg-[#0B101D] flex flex-col items-center justify-center h-screen dark">
     <h1 className="text-3xl font-bold text-gray-200 mb-2">Iniciar Sesión</h1>
     <h2 className="text-1xl font-bold text-gray-500 mb-7">Bienvenido de nuevo. Accede a tu cuenta.</h2>
   <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
@@ -16,7 +16,7 @@ export function Login() {
       <button className="bg-gradient-to-r from-indigo-500 to-blue-800 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit">Iniciar Sesión</button>
     </form>
   </div>
-  <p className="text-sm text-gray-500 mt-4">¿No tienes una cuenta? <a className="text-blue-500 hover:underline" href="#">Regístrate</a></p>
+  <p className="text-sm text-gray-500 mt-4">¿No tienes una cuenta? <a className="text-blue-500 hover:underline" href="/registro">Regístrate</a></p>
 </div>
   )
 }
