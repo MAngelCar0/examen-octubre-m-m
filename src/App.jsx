@@ -1,11 +1,12 @@
 import './App.css'
-import { Login } from './pages/Login/Login'
+import { AsideDashboard } from './components/AsideDashboard'
+import { Registro } from './pages/Registro/Registro'
 
 function App() {
+  
+
   return (
-    <>
-      <Login />
-    </>
+    <AsideDashboard/>
   )
 }
 
