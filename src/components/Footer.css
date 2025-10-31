@@ -1,0 +1,19 @@
+.Footer-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0B101D;
+}
+.Footer-Links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    gap: 50px;
+}
+.Footer-Copyright{
+    font-size: 14px;
+    color: #ffffff;
+    display: flexbox;
+}

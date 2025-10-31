@@ -1,0 +1,92 @@
+.Home-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #0B101D;
+}
+body{
+    overflow-x: hidden;
+}
+.Home-Title-Principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #0B101D;
+    h1{
+        font-size: 40px;
+        color: #ffffff;
+    }
+    h3{
+        font-size: 20px;
+        color: #ffffff;
+    }
+    button{
+        width: 200px;
+        margin-top: 30px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: #065eda;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.Home-Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #0B101D;
+    h2{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    h3{
+        font-size: 20px;
+        color: grey;
+    }
+}
+
+.Home-Cards-Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    background-color: #0B101D;
+}
+.Home-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #0B101D;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid #4d4d4d;
+    padding: 20px;
+    h2{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 15px;
+        color: grey;
+    }
+}
+.Separador{
+    width: 100%;
+    height: 1px;
+    background-color: #4d4d4d;
+}
