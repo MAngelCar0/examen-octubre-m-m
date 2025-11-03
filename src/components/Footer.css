@@ -1,0 +1,27 @@
+.Footer-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #0B101D;
+}
+.Footer-Links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    gap: 50px;
+    margin-bottom: 20px;
+    transform: translateY(-30px);
+}
+.Footer-Copyright{
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}

@@ -7,9 +7,6 @@ transform: translateY(-10%);
   align-items: center;
   justify-content: center;
 }
-body{
-    overflow: hidden;
-}
 
 .reg-title{
   font-size: 30px;
