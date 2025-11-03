@@ -23,7 +23,7 @@ export function AsideDashboard() {
           </nav>
         </div>
         <div>
-          <button className="block px-4 py-2 rounded-lg hover:bg-gray-700 hover:bg-indigo-600" ><Link to="/login">Cerrar Sesión</Link></button>
+          <button className="block px-4 py-2 rounded-lg hover:bg-gray-700 hover:bg-indigo-600" ><Link to="/">Cerrar Sesión</Link></button>
         </div>
       </aside>
     )
