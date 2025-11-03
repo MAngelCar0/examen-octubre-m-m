@@ -1,7 +1,7 @@
 import './Registro.css'
 export function Registro() {
     return (
-        <div className="reg-comtainer">
+        <div className="bg-white reg-comtainer">
             <section className="reg-section">
                 <h1 className="reg-title">Crea tu Cuenta</h1>
                 <p className="reg-subtitle">Regístrate para empezar a usar la aplicacion </p>
@@ -43,7 +43,7 @@ export function Registro() {
                     </div>
                 </div></form>
             <section className="reg-section">
-                <p className="reg-subtitle">¿Ya tienes una cuenta? <a href="#" class="font-medium text-primary-600 hover:underline">Inicia sesión</a></p>
+                <p className="reg-subtitle">¿Ya tienes una cuenta? <a href="/login" class="font-medium text-primary-600 hover:underline">Inicia sesión</a></p>
             </section>
         </div>
     )
