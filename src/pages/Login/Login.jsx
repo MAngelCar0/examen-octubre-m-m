@@ -1,7 +1,7 @@
 import './Login.css'
 export function Login() {
   return (
-<div className="flex flex-col items-center justify-center h-screen dark">
+<div className="bg-[#0B101D] flex flex-col items-center justify-center h-screen dark">
     <h1 className="text-3xl font-bold text-gray-200 mb-2">Iniciar Sesión</h1>
     <h2 className="text-1xl font-bold text-gray-500 mb-7">Bienvenido de nuevo. Accede a tu cuenta.</h2>
   <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">

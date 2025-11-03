@@ -7,12 +7,12 @@ export function Home (){
             <div className="Separador"></div>
             <article className="Home-Title-Principal">
                 <h1>Bienvenido a Nuestra Plataforma</h1>
-                <h3>Un espacio diseñado para simplificar tus tareas y potenciar tu productividad. Empieza en Segundos</h3>
-                <button>Comienza Ahora</button>
+                <h3>Un espacio diseñado para simplificar tus tareas y potenciar tu productividad. Empieza en Segundos.</h3>
+                <button>Comenzar Ahora</button>
             </article>
             <article className="Home-Title">
                 <h2>Caracteristicas Principales</h2>
-                <h3>Descubre Como Nuestra Plataforma Puede Ayudarte a Alcanzar Tus Objetivos De Manera Mas Eficiente</h3>
+                <h3>Descubre Como Nuestra Plataforma Puede Ayudarte a Alcanzar Tus Objetivos De Manera Mas Eficiente.</h3>
             </article>
             <section className="Home-Cards-Container">
                 <div className="Home-Card">

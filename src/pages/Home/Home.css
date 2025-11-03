@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     background-color: #0B101D;
 }
 body{
@@ -14,15 +14,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     gap: 20px;
     background-color: #0B101D;
     h1{
         font-size: 40px;
         color: #ffffff;
+        font-weight: 900;
     }
     h3{
-        font-size: 20px;
-        color: #ffffff;
+        font-size: 21px;
+        color: #6d6b6b;
+        
     }
     button{
         width: 200px;
@@ -30,7 +33,7 @@ body{
         height: 50px;
         border-radius: 10px;
         border: none;
-        background-color: #065eda;
+        background-color: #2a75df;
         color: #ffffff;
         font-size: 20px;
         font-weight: bold;
@@ -42,11 +45,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10rem;
     align-items: center;
     gap: 20px;
     background-color: #0B101D;
     h2{
-        font-size: 30px;
+        font-weight: 800;
+        font-size: 40px;
         color: rgb(255, 255, 255);
     }
     h3{
@@ -59,10 +64,12 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     align-items: stretch;
-    gap: 24px;
+    gap: 60px;
     background-color: #0B101D;
+    margin-bottom: 50px;
 }
 .Home-Card{
     display: flex;
@@ -71,7 +78,7 @@ body{
     align-items: flex-start;
     gap: 20px;
     background-color: #0B101D;
-    width: 250px;
+    width: 350px;
     height: 220px;
     border-radius: 10px;
     border: 1px solid #4d4d4d;
