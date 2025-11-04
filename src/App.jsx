@@ -5,7 +5,6 @@ import { Registro } from './pages/Registro/Registro'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { Home } from './pages/Home/Home'
-import { Login } from './pages/Login/Login'
 
 import { Dashboard } from './pages/Dashboard/Dashboard'
 
@@ -13,13 +12,13 @@ function App() {
   return (
     <>
      <Login />
-    </>
     <Routes>
       {/* <Route path="/" element={<Home />} /> */}
       <Route path="/registro" element={<Registro />} />
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
+    </>
   )
 }
 
