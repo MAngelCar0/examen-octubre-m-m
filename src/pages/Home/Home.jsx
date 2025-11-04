@@ -1,6 +1,7 @@
 import './Home.css'
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
+import { Link } from 'react-router-dom'
 export function Home (){
     return (
         <><Header /><main className="Home-Container">
@@ -8,7 +9,7 @@ export function Home (){
             <article className="Home-Title-Principal">
                 <h1>Bienvenido a Nuestra Plataforma</h1>
                 <h3>Un espacio diseñado para simplificar tus tareas y potenciar tu productividad. Empieza en Segundos.</h3>
-                <button>Comenzar Ahora</button>
+                <Link to="/Login"><button>Comenzar Ahora</button></Link>
             </article>
             <article className="Home-Title">
                 <h2>Caracteristicas Principales</h2>

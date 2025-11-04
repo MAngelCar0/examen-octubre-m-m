@@ -17,7 +17,7 @@ export function Login() {
       <button className="bg-gradient-to-r from-indigo-500 to-blue-800 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit" ><Link to="/dashboard">Iniciar Sesión</Link></button> 
     </form>
   </div>
-  <p className="text-sm text-gray-500 mt-4">¿No tienes una cuenta? <a className="text-blue-500 hover:underline" href="/registro">Regístrate</a></p>
+  <p className="text-sm text-gray-500 mt-4">¿No tienes una cuenta? <Link className="text-blue-500 hover:underline" to="/registro">Regístrate</Link></p>
 </div>
   )
 }
